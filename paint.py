@@ -1,16 +1,15 @@
 import pygame
 
-WIDTH = 800
-HEIGHT = 600
+WIDTH = HEIGHT =  800
+
 WINDOW = pygame.display.set_mode((WIDTH,HEIGHT))
 
 WHITE = (255,255,255)
 RED = (255,0,0)
 BLACK = (0,0,0)
-PIXEL_SIZE = int(input("Enter desired pixel size: "))
 
-ROWS = HEIGHT // PIXEL_SIZE + 5
-COLUMNS = WIDTH // PIXEL_SIZE + 5 # a bit of tolerance
+ROWS = COLUMNS = 50
+PIXEL_SIZE = WIDTH // COLUMNS
 run = True
 
 
