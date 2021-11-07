@@ -1,7 +1,7 @@
 # PythonPaint
 a mspaint like program written in Python with the pygame module
 
-USAGE:
+**USAGE:**
 - clone the repo
 - change into the newly acquired directory
 - run the script with python3 
